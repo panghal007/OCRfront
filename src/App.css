@@ -1,0 +1,175 @@
+
+/*display.jsx*/
+body {
+  background-color: #ebebd9;
+}
+
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+
+.card {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color: rgb(179, 166, 118);
+  transform: scale(1.05);
+}
+
+.card-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.card-buttons button:hover{
+  background-color: #db4130e7;
+}
+
+.card-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/*home.jsx*/
+/* styling for the OCR section */
+.ocr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #235789;
+  color: whitesmoke;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+}
+
+.ocr p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.ocr button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ocr button:hover {
+  background-color: #183451;
+}
+
+
+
+/*output.jsx*/
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #235789;
+  color: whitesmoke;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+}
+
+.upload input {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  margin-left: 10rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.upload input:hover,
+.upload input:focus {
+  border-color: #3498db;
+}
+
+.upload button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload button:hover {
+  background-color: #45a049;
+}
+
+/*  styling for the image and details section */
+.par {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.img {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.items {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.items p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.items p span {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+
+
+
+
+
+
