@@ -13,3 +13,5 @@ FrontEnd Setup commands::
 
 website link: https://thai-ocrfront.onrender.com
 (Please wait 2 minutes after clicking the link to enable the website to LOAD)
+![image](https://github.com/panghal007/OCRfront/assets/108991691/cb18a98a-814b-4989-85b8-ab6015d1781d)
+
